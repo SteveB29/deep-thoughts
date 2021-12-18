@@ -23,7 +23,7 @@ class AuthService {
       } else {
         return false;
       }
-    } catch {err} {
+    } catch (err) {
       return false;
     }
   }
@@ -31,7 +31,7 @@ class AuthService {
   // retrieve token from localstorage
   getToken() {
     // retrieves the user token from localstorage
-    return localStorage.getItem('id_token', idToken);
+    return localStorage.getItem('id_token');
   }
 
   // set token to localStorage and reload page to homepage
