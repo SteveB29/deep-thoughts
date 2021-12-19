@@ -50,8 +50,6 @@ const Profile = () => {
     )
   }
 
-  console.log(user.friends);
-
   return (
     <div>
       <div className="flex-row mb-3">
